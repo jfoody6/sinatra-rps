@@ -1,0 +1,29 @@
+<!-- /views/paper.erb -->
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <h2><%= @our_action %></h2>
+
+  <h2><%= @random_action %></h2>
+
+<% if @computer_decision == "paper" %>
+  <h2>We tied!</h2>
+
+<% elsif @computer_decision == "scissors" %>
+  <h2>We lost!</h2>
+<% else %>
+  <h2>We won!</h2>
+<% end %>
+
+
+  <div><a href="/">Rules</a></div>
+</body>
+</html>
