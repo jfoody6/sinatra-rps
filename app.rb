@@ -7,7 +7,6 @@ get("/") do
   
 end
 
-
 get("/rock") do
   @our_action = "We played rock!"
   
